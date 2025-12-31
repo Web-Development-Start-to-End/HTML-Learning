@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Tag</title>
+</head>
+<body>
+
+    <!-- Basic form creation -->
+    <form action="">
+        User Name : <input type="text" placeholder="username" required ><br>
+        Password : <input type="password" placeholder="password" required><br>
+        <input type="submit" name="login_form_submit_button" id="">
+    </form>
+
+    
+    <hr>
+    <!-- name and value attributes of input tag -->
+    <form action="">
+        <input type="email" name="e_mail" value="123@examplemail.com">
+    </form>
+
+
+    <hr>
+    <!-- label for input tag -->
+     <form action="">
+        <label for="user_name">User Name : </label>
+        <input type="text" id = "user_name" placeholder="username"><br>
+        <label for="pass_word">Password : </label>
+        <input type="password" id = "pass_word" placeholder="password">
+     </form>
+
+      
+     <hr>
+     <!-- Types of input tag -->
+      Date : <input type="date"><br>
+      File : <input type="file"><br>
+      Color : <input type="color"><br>
+      Price range : <input type="range"><br>
+      Click Me : <input type="button" value="Clicked"><br>
+      Submit Button : <input type="submit"><br>
+
+      Radio Buttons <br>
+      <label for="male">Male : </label>
+      <input type="radio" name = "gender" id = "male" value = "male">
+      <label for="female">Female : </label>
+      <input type="radio" name = "gender" id = "female" value = "female">
+      <label for="other">Other : </label>
+      <input type="radio" name = "gender" id = "other" value = "other">
+
+      <br>Checkboxes <br>
+      <label for="c">C : </label>
+      <input type="checkbox" name = "lang" id = "c" value = "c"><br>
+      <label for="java">Java : </label>
+      <input type="checkbox" name = "lang" id = "java" value = "java"><br>
+      <label for="python">Python: </label>
+      <input type="checkbox" name = "lang" id = "python" value = "python"><br>
+
+
+      <br>Select<br>
+      <label for="countries">Select the Country : </label>
+      <select name="Countries" id="countries">
+        <option value="india">India</option>
+        <option value="us">US</option>
+        <option value="uk">UK</option>
+      </select>
+
+      <br><br>
+
+      <textarea cols="20" rows="5"></textarea>
+
+
+</body>
+</html>
